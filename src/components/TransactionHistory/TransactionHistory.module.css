@@ -45,6 +45,7 @@
   font-size: calc(14px + 2vmin);
   font-weight: 300;
   color: #444;
+  text-transform: capitalize;
   min-width: 200px;
 }
 
