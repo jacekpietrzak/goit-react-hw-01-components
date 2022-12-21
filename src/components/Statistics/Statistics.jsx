@@ -7,8 +7,6 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-console.log(getRandomHexColor());
-
 const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
