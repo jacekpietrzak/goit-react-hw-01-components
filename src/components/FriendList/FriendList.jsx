@@ -8,7 +8,7 @@ const FriendList = ({ friends }) => {
       {friends.map(friend => {
         return (
           <FriendListItem
-            keyId={friend.id}
+            key={friend.id}
             avatar={friend.avatar}
             name={friend.name}
             isOnline={friend.isOnline}
@@ -25,7 +25,6 @@ FriendList.propTypes = {
       avatar: PropTypes.string.isRequired,
       name: PropTypes.string.isRequired,
       isOnline: PropTypes.bool.isRequired,
-      id: PropTypes.number.isRequired,
     })
   ),
 };
