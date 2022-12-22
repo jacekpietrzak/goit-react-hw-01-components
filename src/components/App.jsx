@@ -21,7 +21,7 @@ export const App = () => {
       <h2 className="heading2">Statistics</h2>
 
       <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
+
       <h2 className="heading2">Friend list</h2>
 
       <FriendList friends={friends} />
